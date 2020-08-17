@@ -11,6 +11,7 @@ class LoginTest(unittest.TestCase):
         cls.driver.get("https://petstore.octoperf.com/actions/Catalog.action")
         cls.driver.maximize_window()
         cls.driver.implicitly_wait(10)
+        print('Updated code for push')
 
 
     def test(self):
